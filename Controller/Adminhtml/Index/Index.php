@@ -135,7 +135,7 @@ class Index extends \Magento\Backend\App\Action
     protected function _isAllowed() {
         switch ($this->_request->getActionName()) {
             case 'index':
-                return $this->_authorization->isAllowed('Jundat_Reindex::Index');
+                return $this->_authorization->isAllowed('Jundat_Reindex::config_reindex');
         }
         return false;
     }
