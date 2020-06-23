@@ -2,8 +2,7 @@
     "name": "jundat95/magento-reindex",
     "description": "Magento2 Reindex Pro",
     "require": {
-        "php": "~7.0.0|~7.1.2|~7.2.0",
-        "magento/framework": "102.0.*"
+        "php": "~7.0.0|~7.1.2|~7.2.0"
     },
     "type": "magento2-module",
     "version": "0.0.1",
